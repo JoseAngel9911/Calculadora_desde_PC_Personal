@@ -22,8 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".calculadora_activity">
+        <activity android:name=".activity_principal_class">
+
+        </activity>
+        <activity android:name=".activity_secondary_class">
+
+        </activity>
+        <activity android:name=".activity_terciary_class">
+
         </activity>
     </application>
 

@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void calculadoraActivityClass(View view){
-        Intent calculadoraLayout  = new Intent(this, calculadora_activity.class);
-        startActivity(calculadoraLayout);
+    public void cambiarActivityPrincipal(View view){
+        Intent activityPrincipal  = new Intent(this, activity_principal_class.class);
+        startActivity(activityPrincipal);
     }
 
 }
